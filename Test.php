@@ -53,13 +53,6 @@
         <input type="text" id="kleur2" placeholder="kleur">
         <input type="button" onclick="update(schipid)" value="Updaten"><br><br>
         
-<!--        Schepen wissen:
-        <input type="text" id="scheepsnaam3" placeholder="scheepsnaam">
-        <input type="text" id="scheepslengte3" placeholder="scheepslengte">
-        <input type="text" id="vaarsnelheid3" placeholder="vaarsnelheid">
-        <input type="text" id="kleur3" placeholder="kleur">
-        <input type="button" onclick="verwijder(schipid)" value="Verwijder"><br>-->
-        
                 <?php
             echo "<ul>";
 //            foreach($results as $result){
