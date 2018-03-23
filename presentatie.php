@@ -40,6 +40,8 @@ function insertSchip($conn, $naam, $lengte) {
 }
 
 //Dit is een functie die de schepen invoert in de database. De waardes die ingevoerd worden zijn naam en lengte.
+//$conn wordt meegegeven omdat je in een functie alleen variabelen kan gebruiken die meegegeven zijn of door de funtie gemaakt worden.
+//Dus als $conn niet wordt meegegeven is het voor de functie een "lege" variabele.
 
 function toonSchepen($conn) {
         $result = $conn->query('SELECT * FROM schepen');
